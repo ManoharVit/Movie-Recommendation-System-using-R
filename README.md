@@ -5,6 +5,9 @@ The code begins by reading the necessary data from CSV files, such as movie info
 
 The code determines user profiles by multiplying the genre matrix by the binary ratings matrix. This phase establishes the intensity of association between users and film genres, indicating their predilection for particular genres.The use of user-based collaborative filtering (UBCF) to generate movie recommendations. The code calculates the similarity between users based on their preferences by applying the cosine similarity measure. Using the normalized rating matrix, the recommender model is constructed, and recommendations are generated for a specific user.
 
+#Distribution of ratings
+![image](https://github.com/ManoharVit/Movie-Recommendation-System-using-R/assets/50493896/eaa7bfc3-c597-447d-bd2c-6e05b559d71f)
+
 Cross-validation is utilized by the evaluation scheme to determine the precision of the recommendations. There are obtained evaluation results indicating the efficacy of the recommendation system at various recommendation list lengths. Outputs of the system include a search matrix that facilitates searching for movies based on genre, the titles of action movies produced in a specific year, and a list of recommended movies for a specific user.
 
 In conclusion, the Movie Recommendation System utilizing R demonstrates the use of collaborative filtering techniques to generate personalized movie recommendations. By analyzing user preferences and movie genres, the system assists users in discovering movies that match their interests and preferences.
